@@ -6,19 +6,18 @@
 3. "python" should be found by your system(type 'python' in cmd should act normal)
 
 ## Usage
-### clone this repo to where/you/save
+1. clone this repo to where/you/save
 
-### open wideBand.py
+2. open wideBand.py
 
-### fill in adsl_account information
-1. "name" field is your connection name(English name only, if your name is Chinese, remove it and build a new one in English)
-2. "username" and "password": your XJTU Internet username and password
+3. fill in adsl_account information
+a) "name" field is your connection name(English name only, if your name is Chinese, remove it and build a new one in English)
+b) "username" and "password": your XJTU Internet username and password
 
-### open autostart.bat
-change where/you/save to where you actually save wideBand.py(absolute path). For example, my setting is
-C:/Users/jszhu/software/scripts/wideBand.py.
+4. open autostart.bat
+change where/you/save to where you actually save wideBand.py(absolute path). For example, my setting is `C:/Users/jszhu/software/scripts/wideBand.py`.
 
-### copy autostart.bat to C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup
+5. copy autostart.bat to C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup
 This step is for automatic connection when starting your Windows.
 
 ## Tips
