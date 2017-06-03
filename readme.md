@@ -11,7 +11,9 @@
 2. open wideBand.py
 
 3. fill in adsl_account information
+
 a) "name" field is your connection name(English name only, if your name is Chinese, remove it and build a new one in English)
+
 b) "username" and "password": your XJTU Internet username and password
 
 4. open autostart.bat
