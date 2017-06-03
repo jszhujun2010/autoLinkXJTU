@@ -6,7 +6,7 @@
 3. "python" should be found by your system(type 'python' in cmd should act normal)
 
 ## Usage
-1. clone this repo to where/you/save
+1. clone this repo to where/you/save/wideBand.py
 
 2. open wideBand.py
 
@@ -17,7 +17,7 @@
 	b) "username" and "password": your XJTU Internet username and password
 
 4. open autostart.bat
-change where/you/save to where you actually save wideBand.py(absolute path). For example, my setting is `C:/Users/jszhu/software/scripts/wideBand.py`.
+change where/you/save/wideBand.py to where you actually save wideBand.py(absolute path). For example, my setting is `C:/Users/jszhu/software/scripts/wideBand.py`.
 
 5. copy autostart.bat to C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup
 This step is for automatic connection when starting your Windows.
@@ -25,3 +25,4 @@ This step is for automatic connection when starting your Windows.
 ## Tips
 1. For Python installation, install anoconda is recommended, since requests module is included(https://www.continuum.io/downloads/).
 2. autostart.bat actually runs a python script. So, if "python" can not be found by your system, just replace it by your python.exe absolute path.
+3. If your your network is disconnected, just double click autostart.bat again(one step) to reconnect.
